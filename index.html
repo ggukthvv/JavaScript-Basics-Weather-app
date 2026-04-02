@@ -15,13 +15,13 @@
 
         <div class="heading">
             <div class="heading__text">
-                <h3><img class="heading__text--icon" src="location.png">New York <img class="heading__text--icon"
-                        src="direction.png"></h3>
-                <h1>Thunderstorm</h1>
-                <p class="heading__text__degree">26˚</p>
-                <p class="heading__text__date">Sunday | 12 Dec 2024 - 11:43 PM</p>
+                <h3><img class="heading__text--icon" src="location.png"><span id="country">New York</span> <img
+                        class="heading__text--icon" src="direction.png"></h3>
+                <h1><span id="thunder">Thunderstorm</span></h1>
+                <p class="heading__text__degree"><span id="temp">26˚</span></p>
+                <p class="heading__text__date"><span id="time">Sunday | 12 Dec 2024 - 11:43 PM</span></p>
             </div>
-            <img class="heading__img" src="cloud.png">
+            <img class="heading__img" src="sunny1.png">
         </div>
 
 
@@ -34,8 +34,9 @@
                         <div class="texts__conntainer">
                             <p class="card-humid"><img class="heart-img" src="heart.png">Indoor</p>
                             <p class="card1__degree"><img src="temp.png">22˚</p>
-                            <p class="card-humid"><img class="tear__img" src="tear.png">Humid
-                                66%
+                            <p class="card-humid"><img class="tear__img" src="tear.png">
+                                <span id="humid">Humid
+                                    66%</span>
                             </p>
                         </div>
                     </div>
@@ -60,7 +61,77 @@
 
                 <div class="cards__down">
                     <div class="cards__overlay"></div>
-                    <p><img class="time__img" src="time.png">12-hour forecast</p>
+
+
+                    <p class="hour-forecast"><img class="time__img" src="time.png">12-hour forecast</p>
+
+
+                    <div class="cards-weather">
+                        <div class="cards__down--weather">
+                            <p>26°</p>
+                            <img clas="weather" src="png1.png" style="
+                            margin-left: 20px">
+                            <p>11.7km/h</p>
+                            <p>Now</p>
+                        </div>
+
+                        <div class="cards__down--weather">
+                            <p>26°</p>
+                            <img clas="weather" src="image copy 3.png" style="
+                            margin-left: 20px">
+                            <p>9.3km/h</p>
+                            <p>22:00</p>
+                        </div>
+
+                        <div class="cards__down--weather">
+                            <p>22°</p>
+                            <img clas="weather" src="image copy.png" style="
+                            margin-left: 20px">
+                            <p>12km/h</p>
+                            <p>00:00</p>
+                        </div>
+
+                        <div class="cards__down--weather">
+                            <p>16°</p>
+                            <img clas="weather" src="tues.png" style="
+                            margin-left: 20px">
+                            <p>15km/h</p>
+                            <p>2:00</p>
+                        </div>
+
+                        <div class="cards__down--weather">
+                            <p>20°</p>
+                            <img clas="weather" src="tues.png" style="
+                            margin-left: 20px">
+                            <p>15km/h</p>
+                            <p>4:00</p>
+                        </div>
+
+                        <div class="cards__down--weather">
+                            <p>22°</p>
+                            <img clas="weather" src="image copy 2.png" style="
+                            margin-left: 20px">
+                            <p>15km/h</p>
+                            <p>6:00</p>
+                        </div>
+
+                        <div class="cards__down--weather">
+                            <p>16°</p>
+                            <img clas="weather" src="tues.png" style="
+                            margin-left: 20px">
+                            <p>15km/h</p>
+                            <p>8:00</p>
+                        </div>
+
+                        <div class="cards__down--weather">
+                            <p>14°</p>
+                            <img clas="weather" src="tues.png" style="
+                            margin-left: 20px">
+                            <p>15km/h</p>
+                            <p>10:00</p>
+                        </div>
+                    </div>
+
                 </div>
 
             </main>
@@ -106,7 +177,8 @@
 
                     <div>
                         <p><img class="condtions__icon" src="wind.png">Wind</p>
-                        <p>0.8 km/hr</p>
+                        <p><span id="wind">>0.8 km/hr</span>
+                        </p>
                     </div>
 
                     <div>
@@ -116,7 +188,7 @@
 
                     <div>
                         <p><img class="condtions__icon" src="sunny.png">UV Index</p>
-                        <p>4</p>
+                        <p><span id="uvindex">4</span></p>
                     </div>
                 </div>
             </div>
@@ -131,5 +203,6 @@
     </div>
 
 </body>
+<script src="./script.js"></script>
 
 </html>
