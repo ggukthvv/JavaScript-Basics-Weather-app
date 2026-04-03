@@ -262,6 +262,7 @@
     width: 100%;
     height: auto;
     z-index: 1;
+    padding: 20px;
 }
 
 .cards__side {
@@ -435,7 +436,7 @@
     }
 
     .cards__side {
-        width: 60%;
+        width: 90%;
         margin: 20px;
 
     }
@@ -463,6 +464,28 @@
     .card2__degree {
         font-size: 30px;
     }
+
+    .card1__degree {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading__text {
+        text-align: center;
+    }
+
+    .tear__img {
+        margin-right: 0;
+    }
+
+    .texts__conntainer {
+        padding: 16px
+    }
+
+    .card3 {
+        width: 100%;
+    }
 }
 
 @keyframes spinAnimation {
@@ -482,6 +505,7 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+    margin-bottom: 35px;
 }
 
 @keyframes pulseAnimation {
