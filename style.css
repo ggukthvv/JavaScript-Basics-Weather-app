@@ -262,7 +262,7 @@
     width: 100%;
     height: auto;
     z-index: 1;
-    padding: 20px;
+
 }
 
 .cards__side {
@@ -483,9 +483,7 @@
         padding: 16px
     }
 
-    .card3 {
-        width: 100%;
-    }
+
 }
 
 @keyframes spinAnimation {
