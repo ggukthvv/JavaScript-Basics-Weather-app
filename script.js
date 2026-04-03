@@ -58,7 +58,7 @@ async function fetchWeather() {
         console.log('uvindex', uvindex);
 
         const humid = document.querySelector('#humid');
-        humid.innerText = data.current.humidity || 'none';
+        humid.innerText = ` ${data.current.humidity}%` || 'none';
         console.log('humid', humid)
     }
     catch (error) {
